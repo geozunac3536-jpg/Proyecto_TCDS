@@ -29,5 +29,16 @@ Este repositorio publica el **núcleo trazable** del paradigma **TCDS** con pág
 ## 🔐 Licencias
 - Ciencia y docs: [**CC BY-NC-SA 4.0**](`LICENSE`)
 - Comercial/Hardware: [**TCDS Σ Open Lab License v1.1**](https://github.com/geozunac3536-jpg/TCDS-LICENCIAS)
+# TCDS — Formalismo Coherencial Universal (Σ–χ) y Verificación
 
+> TL;DR — TCDS en 6 líneas  
+La TCDS organiza coherencia (Σ), sustrato (χ) y fricción (φ) en un formalismo parsimonioso que predice el Sincronón (σ) y establece cierres falsables.  
+Rutas de gradiente →  
+• Teoría: formalismo Σ–χ → /gradient.md#l2-tecnico  
+• Hardware: ΣFET/SYNCTRON y lenguas de Arnold (KPIs LI≥0.9, R>0.95, RMSE_SL≤0.1, reprod≥95%) → /gradient.md#l1-operativo  
+• Métricas: Σ-metrics R(t), LI, RMSE_SL, κΣ (K-Rate) → /ai/index.json  
+• Falsación: sub-mm Yukawa, relojes/cavidades, bancos ∇Σ → /gradient.md#l3-auditoria  
+• Dossiers ejecutivos (licenciamiento CC BY-NC-SA y flujo) → /gradient.md#l0-superficial
+
+**Autor:** Genaro Carrasco Ozuna · **DOI:** 10.5281/zenodo.17505875 · **Ko-fi:** https://ko-fi.com/tu_usuario
 © 2025 Proyecto TCDS · Genaro Carrasco Ozuna · [ORCID 0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910)
