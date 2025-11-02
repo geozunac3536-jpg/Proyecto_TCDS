@@ -3,31 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TCDS — Índice Trazable</title>
-<meta name="description" content="TCDS · Índice en tema oscuro con trazabilidad 100/100, JSON-LD, Zenodo y SHA256.">
+<title>Proyecto TCDS — Índice Trazable</title>
+<meta name="description" content="Proyecto TCDS: índice en tema oscuro, trazabilidad, JSON-LD y PDFs optimizados.">
 <link rel="icon" href="https://avatars.githubusercontent.com/u/166396935?s=200">
-<script type="application/ld+json" id="schema-jsonld"></script>
+
+<!-- CSS crítico inline + hoja completa con preload -->
+<link rel="preload" href="assets/site.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/site.css"></noscript>
 <style>
-:root { color-scheme: dark light; }
+:root{color-scheme:dark light}
 *{box-sizing:border-box}
-body{margin:0;background:#0b0b0b;color:#eaeaea;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Arial}
+body{margin:0;background:#0b0b0b;color:#eaeaea;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial}
 header,main,footer{max-width:980px;margin:auto;padding:1rem}
-h1{color:#7fd1b9;text-align:center;margin-top:1rem}
+h1{color:#7fd1b9;text-align:center;margin:1rem 0}
 h2{color:#d1b97f}
 a{color:#7fb6ff;text-decoration:none}
 a:hover{text-decoration:underline}
 .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .card{background:#141414;border:1px solid #1f1f1f;border-radius:14px;padding:1rem;box-shadow:0 0 20px #0003}
-small,code{color:#c8c8c8}
 .badge{display:inline-block;padding:.35rem .6rem;border:1px solid #2a2a2a;border-radius:999px;margin-right:.3rem}
-footer{font-size:.9rem;color:#b5b5b5;text-align:center;padding-bottom:2rem}
+small,code{color:#c8c8c8}
+footer{font-size:.9rem;color:#b5b5b5;text-align:center;padding:2rem 1rem}
 </style>
+
+<!-- Preload de PDFs (mejor LCP si el usuario abre enseguida) -->
+<link rel="preload" as="document" href="docs/La_TCDS.pdf" type="application/pdf" crossorigin>
+<link rel="preload" as="document" href="docs/Auditoria.pdf" type="application/pdf" crossorigin>
+<link rel="preload" as="document" href="docs/Energia.pdf" type="application/pdf" crossorigin>
+
+<!-- JSON-LD (lo cargamos embebido desde schema.jsonld para edición fácil) -->
+<script type="application/ld+json" id="schema-jsonld"></script>
 </head>
 <body>
+
 <header>
-  <h1>🌑 TCDS — Índice Trazable (Dark)</h1>
+  <h1>🌑 Proyecto TCDS — Índice Trazable</h1>
   <p style="text-align:center">
-    Autor: Genaro Carrasco Ozuna · ORCID <a target="_blank" href="https://orcid.org/0009-0005-6358-9910">0009-0005-6358-9910</a>
+    Autor: Genaro Carrasco Ozuna · ORCID
+    <a target="_blank" rel="noopener" href="https://orcid.org/0009-0005-6358-9910">0009-0005-6358-9910</a>
   </p>
 </header>
 
@@ -36,26 +49,30 @@ footer{font-size:.9rem;color:#b5b5b5;text-align:center;padding-bottom:2rem}
     <article class="card">
       <h2>📘 La TCDS — Núcleo Teórico</h2>
       <p>Lagrangiano, ecuación maestra y ley de coherencia.</p>
-      <p><a target="_blank" href="docs/La_TCDS.pdf">Abrir PDF en nueva pestaña</a></p>
+      <p><a target="_blank" rel="noopener" href="docs/La_TCDS.pdf">Abrir PDF en nueva pestaña</a></p>
       <span class="badge">SHA256: <code id="sha1"></code></span>
     </article>
+
     <article class="card">
       <h2>🧪 Dossier de Auditoría</h2>
-      <p>KPIs, falsación y plantillas de preregistro.</p>
-      <p><a target="_blank" href="docs/Auditoria.pdf">Abrir PDF en nueva pestaña</a></p>
+      <p>KPIs, falsación y preregistro.</p>
+      <p><a target="_blank" rel="noopener" href="docs/Auditoria.pdf">Abrir PDF en nueva pestaña</a></p>
       <span class="badge">SHA256: <code id="sha2"></code></span>
     </article>
+
     <article class="card">
       <h2>⚖️ Estudio Q–ϕ–Σ (Energía)</h2>
-      <p>Balance dinámico entre empuje, fricción y coherencia.</p>
-      <p><a target="_blank" href="docs/Energia.pdf">Abrir PDF en nueva pestaña</a></p>
+      <p>Balance entre empuje, fricción y coherencia.</p>
+      <p><a target="_blank" rel="noopener" href="docs/Energia.pdf">Abrir PDF en nueva pestaña</a></p>
       <span class="badge">SHA256: <code id="sha3"></code></span>
     </article>
   </section>
 
   <section>
     <h2>🔎 Trazabilidad</h2>
-    <p>Consulta las huellas criptográficas en <a href="checksums/SHASUMS256.txt" target="_blank">checksums/SHASUMS256.txt</a>.</p>
+    <p>Consulta las huellas criptográficas en
+      <a target="_blank" rel="noopener" href="checksums/SHASUMS256.txt">checksums/SHASUMS256.txt</a>.
+    </p>
   </section>
 </main>
 
