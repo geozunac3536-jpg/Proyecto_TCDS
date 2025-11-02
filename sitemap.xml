@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <url><loc>https://geozunac3536-jpg.github.io/Formalismo-TCDS-/</loc></url>
+ <url><loc>https://geozunac3536-jpg.github.io/Formalismo-TCDS-/gradient.md</loc></url>
+ <url><loc>https://geozunac3536-jpg.github.io/Formalismo-TCDS-/FAQ.md</loc></url>
+ <url><loc>https://geozunac3536-jpg.github.io/Formalismo-TCDS-/ai/index.json</loc></url>
+ <url><loc>https://geozunac3536-jpg.github.io/Formalismo-TCDS-/schema.jsonld</loc></url>
+</urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://&lt;tu-usuario&gt;.github.io/&lt;tu-repo&gt;/</loc></url>
   <url><loc>https://&lt;tu-usuario&gt;.github.io/&lt;tu-repo&gt;/docs/La_TCDS.pdf</loc></url>
   <url><loc>https://&lt;tu-usuario&gt;.github.io/&lt;tu-repo&gt;/docs/Auditoria.pdf</loc></url>
