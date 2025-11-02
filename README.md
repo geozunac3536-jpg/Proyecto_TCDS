@@ -31,7 +31,7 @@ Este repositorio publica el **núcleo trazable** del paradigma **TCDS** con pág
 - Ciencia y docs: [**CC BY-NC-SA 4.0**](`LICENSE`)
 - Comercial/Hardware: [**TCDS Σ Open Lab License v1.1**](https://github.com/geozunac3536-jpg/TCDS-LICENCIAS)
 # TCDS — Formalismo Coherencial Universal (Σ–χ) y Verificación
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17463045.svg)](https://doi.org/10.5281/zenodo.17463045)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17450752.svg)](https://doi.org/10.5281/zenodo.17450752)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17504507.svg)](https://doi.org/10.5281/zenodo.17504507)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17504243.svg)](https://doi.org/10.5281/zenodo.17504243)
 > TL;DR — TCDS en 6 líneas  
 La TCDS organiza coherencia (Σ), sustrato (χ) y fricción (φ) en un formalismo parsimonioso que predice el Sincronón (σ) y establece cierres falsables.  
 Rutas de gradiente →  
