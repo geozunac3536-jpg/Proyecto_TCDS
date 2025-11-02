@@ -1,0 +1,23 @@
+{
+  "title": "TCDS — Núcleo Teórico y Auditoría Trazable",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "creators": [
+    {
+      "name": "Carrasco Ozuna, Genaro",
+      "orcid": "0009-0005-6358-9910",
+      "affiliation": "Proyecto TCDS-Σ"
+    }
+  ],
+  "description": "Paquete trazable 100/100 con tema oscuro, JSON-LD, SHA-256 y auditoría CI para indexación y preservación en Zenodo.",
+  "keywords": [
+    "TCDS",
+    "ΣFET",
+    "Coherencia",
+    "JSON-LD",
+    "GitHub Pages",
+    "Zenodo"
+  ],
+  "access_right": "open",
+  "license": "cc-by-nc-sa-4.0"
+}
