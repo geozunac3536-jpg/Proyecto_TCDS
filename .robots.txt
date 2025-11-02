@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://geozunac3536-jpg.github.io/Proyecto_TCDS/sitemap.xml
