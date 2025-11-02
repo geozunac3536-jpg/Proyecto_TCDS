@@ -1,4 +1,30 @@
 {
+  "@context":"https://schema.org",
+  "@type":"CreativeWork",
+  "name":"Formalismo Coherencial Universal TCDS — Campo Σ y Verificación",
+  "url":"https://geozunac3536-jpg.github.io/Formalismo-TCDS-/",
+  "description":"Formalismo parsimonioso Σ–χ, ΣFET/SYNCTRON, Σ-metrics (R, LI, RMSE_SL, κΣ) y protocolo de falsación.",
+  "license":"https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "keywords":["TCDS","Σ–χ","Sincronón σ","ΣFET","SYNCTRON","Σ-metrics","LI","R(t)","RMSE_SL","κΣ","K-Rate","Yukawa sub-mm","relojes ópticos","LBCU"],
+  "about":[
+    {"@type":"Thing","name":"Formalismo Σ–χ"},
+    {"@type":"Thing","name":"Sincronón (σ)"},
+    {"@type":"Thing","name":"ΣFET / SYNCTRON"},
+    {"@type":"Thing","name":"LBCU — Ley de Balance Coherencial Universal"}
+  ],
+  "identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.5281/zenodo.17505875"},
+  "sameAs":[
+    "https://doi.org/10.5281/zenodo.17505875",
+    "https://ko-fi.com/tu_usuario"
+  ],
+  "hasPart":[
+    {"@type":"Dataset","name":"Σ-metrics y KPIs","url":"/ai/index.json"},
+    {"@type":"CreativeWork","name":"Mapa de gradiente 0→3","url":"/gradient.md"},
+    {"@type":"CreativeWork","name":"FAQ y cierres falsables","url":"/FAQ.md"}
+  ],
+  "creator":{"@type":"Person","name":"Genaro Carrasco Ozuna"}
+}
+{
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "TCDS — Núcleo Teórico y Auditoría Trazable",
