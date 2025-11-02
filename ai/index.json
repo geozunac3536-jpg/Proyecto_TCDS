@@ -1,0 +1,30 @@
+[
+  {
+    "id":"formalismo-sigma-chi",
+    "title":"Formalismo Σ–χ",
+    "url":"/gradient.md#l2-tecnico",
+    "tags":["teoria","sigma-chi","sincronon","ecuaciones"],
+    "summary":"Lagrangiano mínimo con Σ y χ; vínculo operativo con κΣ y cierres falsables."
+  },
+  {
+    "id":"hardware-sigmafet",
+    "title":"ΣFET/SYNCTRON — KPIs y lenguas de Arnold",
+    "url":"/gradient.md#l1-operativo",
+    "tags":["hardware","locking","LI","R","RMSE_SL","reproducibilidad"],
+    "summary":"Injection-locking con umbrales LI≥0.9, R>0.95, RMSE_SL≤0.1, reprod≥95%."
+  },
+  {
+    "id":"metrics",
+    "title":"Σ-metrics y K-Rate (κΣ)",
+    "url":"/gradient.md#l1-operativo",
+    "tags":["metrics","R(t)","LI","RMSE_SL","kappaSigma"],
+    "summary":"Definiciones operativas y cómo auditar κΣ desde series temporales."
+  },
+  {
+    "id":"falsacion",
+    "title":"Protocolo de falsación",
+    "url":"/gradient.md#l3-auditoria",
+    "tags":["falsacion","yukawa","relojes","bancos"],
+    "summary":"Decisión binaria por convergencia entre sub-mm Yukawa, relojes/cavidades y ΣFET."
+  }
+]
