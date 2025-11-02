@@ -1,4 +1,4 @@
-# 🌑 TCDS — Paquete de Trazabilidad 100/100 (GitHub + Zenodo)
+# 🌑 TCDS — Paquete de presentación de la Teoría Cromodinámica Sincrónica TCDS
 
 Este repositorio publica el **núcleo trazable** del paradigma **TCDS** con página en **tema oscuro**, enlaces a PDFs en **pestaña nueva**, **huellas SHA-256**, metadatos **JSON-LD** y **Zenodo** listos.
 
