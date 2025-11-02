@@ -1,5 +1,10 @@
 # 🌑 TCDS — Paquete de presentación de la Teoría Cromodinámica Sincrónica TCDS
-
+<p style="text-align:center;margin:0.5rem 0 1.25rem;">
+  <a href="https://ko-fi.com/genarocarrasco" target="_blank" rel="noopener"
+     style="display:inline-block;padding:.6rem 1rem;border:1px solid #2a2a2a;border-radius:10px;color:#eaeaea;text-decoration:none;">
+     ☕ Apoyar el proyecto en Ko-fi
+  </a>
+</p>
 Este repositorio publica el **núcleo trazable** del paradigma **TCDS** con página en **tema oscuro**, enlaces a PDFs en **pestaña nueva**, **huellas SHA-256**, metadatos **JSON-LD** y **Zenodo** listos.
 
 ## 📄 Documentos
