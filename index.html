@@ -1,25 +1,79 @@
-🌑 TCDS — Índice Trazable (Dark)
-Autor: Genaro Carrasco Ozuna · ORCID 0009-0005-6358-9910
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TCDS — Índice Trazable</title>
+<meta name="description" content="TCDS · Índice en tema oscuro con trazabilidad 100/100, JSON-LD, Zenodo y SHA256.">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/166396935?s=200">
+<script type="application/ld+json" id="schema-jsonld"></script>
+<style>
+:root { color-scheme: dark light; }
+*{box-sizing:border-box}
+body{margin:0;background:#0b0b0b;color:#eaeaea;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Arial}
+header,main,footer{max-width:980px;margin:auto;padding:1rem}
+h1{color:#7fd1b9;text-align:center;margin-top:1rem}
+h2{color:#d1b97f}
+a{color:#7fb6ff;text-decoration:none}
+a:hover{text-decoration:underline}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:#141414;border:1px solid #1f1f1f;border-radius:14px;padding:1rem;box-shadow:0 0 20px #0003}
+small,code{color:#c8c8c8}
+.badge{display:inline-block;padding:.35rem .6rem;border:1px solid #2a2a2a;border-radius:999px;margin-right:.3rem}
+footer{font-size:.9rem;color:#b5b5b5;text-align:center;padding-bottom:2rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>🌑 TCDS — Índice Trazable (Dark)</h1>
+  <p style="text-align:center">
+    Autor: Genaro Carrasco Ozuna · ORCID <a target="_blank" href="https://orcid.org/0009-0005-6358-9910">0009-0005-6358-9910</a>
+  </p>
+</header>
 
-📘 La TCDS — Núcleo Teórico
-Lagrangiano, ecuación maestra y ley de coherencia.
+<main>
+  <section class="grid">
+    <article class="card">
+      <h2>📘 La TCDS — Núcleo Teórico</h2>
+      <p>Lagrangiano, ecuación maestra y ley de coherencia.</p>
+      <p><a target="_blank" href="docs/La_TCDS.pdf">Abrir PDF en nueva pestaña</a></p>
+      <span class="badge">SHA256: <code id="sha1"></code></span>
+    </article>
+    <article class="card">
+      <h2>🧪 Dossier de Auditoría</h2>
+      <p>KPIs, falsación y plantillas de preregistro.</p>
+      <p><a target="_blank" href="docs/Auditoria.pdf">Abrir PDF en nueva pestaña</a></p>
+      <span class="badge">SHA256: <code id="sha2"></code></span>
+    </article>
+    <article class="card">
+      <h2>⚖️ Estudio Q–ϕ–Σ (Energía)</h2>
+      <p>Balance dinámico entre empuje, fricción y coherencia.</p>
+      <p><a target="_blank" href="docs/Energia.pdf">Abrir PDF en nueva pestaña</a></p>
+      <span class="badge">SHA256: <code id="sha3"></code></span>
+    </article>
+  </section>
 
-Abrir PDF en nueva pestaña
+  <section>
+    <h2>🔎 Trazabilidad</h2>
+    <p>Consulta las huellas criptográficas en <a href="checksums/SHASUMS256.txt" target="_blank">checksums/SHASUMS256.txt</a>.</p>
+  </section>
+</main>
 
-SHA256: 000b19563e95…
-🧪 Dossier de Auditoría
-KPIs, falsación y plantillas de preregistro.
+<footer>
+  <p>© 2025 Proyecto TCDS — CC BY-NC-SA 4.0 / TCDS Σ Open Lab License v1.1</p>
+</footer>
 
-Abrir PDF en nueva pestaña
-
-SHA256: fd0dbc63e5bf…
-⚖️ Estudio Q–ϕ–Σ (Energía)
-Balance dinámico entre empuje, fricción y coherencia.
-
-Abrir PDF en nueva pestaña
-
-SHA256: 5f45179f168b…
-🔎 Trazabilidad
-Consulta las huellas criptográficas en checksums/SHASUMS256.txt.
-
-© 2025 Proyecto TCDS — CC BY-NC-SA 4.0 / TCDS Σ Open Lab License v1.1
+<script>
+fetch('schema.jsonld').then(r=>r.text()).then(j=>document.getElementById('schema-jsonld').textContent=j);
+fetch('checksums/SHASUMS256.txt').then(r=>r.text()).then(t=>{
+  const lines = t.trim().split(/\n/).filter(Boolean);
+  const map = {};
+  for (const ln of lines){ const [hash, path] = ln.split(/\s+/); map[path.trim()] = hash.trim(); }
+  const short = s => s ? s.substring(0,12) + '…' : '';
+  document.getElementById('sha1').textContent = short(map['docs/La_TCDS.pdf']);
+  document.getElementById('sha2').textContent = short(map['docs/Auditoria.pdf']);
+  document.getElementById('sha3').textContent = short(map['docs/Energia.pdf']);
+});
+</script>
+</body>
+</html>
