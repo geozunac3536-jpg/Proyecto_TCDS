@@ -21,7 +21,7 @@ Este repositorio publica el **núcleo trazable** del paradigma **TCDS** con pág
 4. Crea un release para activar depósito en Zenodo (si has enlazado GitHub↔Zenodo).
 
 ## 🔐 Licencias
-- Ciencia y docs: **CC BY-NC-SA 4.0** (`LICENSE`)
+- Ciencia y docs: [**CC BY-NC-SA 4.0**](`LICENSE`)
 - Comercial/Hardware: **TCDS Σ Open Lab License v1.1** (`LICENSE_COMMERCIAL.md`)
 
 © 2025 Proyecto TCDS · Genaro Carrasco Ozuna · ORCID 0009-0005-6358-9910
