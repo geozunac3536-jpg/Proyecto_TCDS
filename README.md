@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1087938102.svg)](https://doi.org/10.5281/zenodo.17504506)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17504243.svg)](https://doi.org/10.5281/zenodo.17504243)
 # 🌑 TCDS — Paquete de presentación de la Teoría Cromodinámica Sincrónica TCDS
 <p style="text-align:center;margin:0.5rem 0 1.25rem;">
