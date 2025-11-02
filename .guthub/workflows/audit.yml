@@ -1,0 +1,23 @@
+name: Audit & Traceability
+on:
+  push:
+  pull_request:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required files exist
+        run: |
+          test -f index.html
+          test -f schema.jsonld
+          test -f .zenodo.json
+          test -f checksums/SHASUMS256.txt
+          test -f docs/La_TCDS.pdf
+          test -f docs/Auditoria.pdf
+          test -f docs/Energia.pdf
+      - name: Verify SHA256 checksums
+        run: |
+          while read -r hash path; do
+            echo "$hash  $path" | sha256sum -c -
+          done < checksums/SHASUMS256.txt
