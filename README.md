@@ -22,6 +22,6 @@ Este repositorio publica el **núcleo trazable** del paradigma **TCDS** con pág
 
 ## 🔐 Licencias
 - Ciencia y docs: [**CC BY-NC-SA 4.0**](`LICENSE`)
-- Comercial/Hardware: **TCDS Σ Open Lab License v1.1** (`LICENSE_COMMERCIAL.md`)
+- Comercial/Hardware: [**TCDS Σ Open Lab License v1.1**](https://github.com/geozunac3536-jpg/TCDS-LICENCIAS)
 
-© 2025 Proyecto TCDS · Genaro Carrasco Ozuna · ORCID 0009-0005-6358-9910
+© 2025 Proyecto TCDS · Genaro Carrasco Ozuna · [ORCID 0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910)
