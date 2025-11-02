@@ -1,0 +1,9 @@
+/* TCDS — Dark theme complementario (no bloquea render gracias a preload) */
+:root { --card-bg:#141414; --border:#1f1f1f; --shadow:#0003; --accent:#7fb6ff; }
+.card { transition: transform .15s ease, box-shadow .15s ease; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 28px var(--shadow);}
+a.btn{display:inline-block;padding:.6rem 1rem;border:1px solid var(--border);border-radius:10px}
+@media (prefers-color-scheme: light) {
+  body{background:#fff;color:#111}
+  .card{background:#fff;border:1px solid #ddd}
+}
