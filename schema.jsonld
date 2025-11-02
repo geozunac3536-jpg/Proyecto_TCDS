@@ -2,19 +2,14 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "TCDS — Núcleo Teórico y Auditoría Trazable",
+  "description": "Repositorio en tema oscuro con PDFs auditables (SHA-256), metadatos estructurados y auditoría CI para trazabilidad 100/100 del paradigma TCDS.",
   "url": "https://geozunac3536-jpg.github.io/Proyecto_TCDS/",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
     "value": "PENDIENTE_DOI_O_ZENODO"
   },
-  "creator": {
-    "@type": "Person",
-    "name": "Genaro Carrasco Ozuna",
-    "identifier": "https://orcid.org/0009-0005-6358-9910",
-    "email": "geozunac3536@gmail.com",
-    "affiliation": { "@type": "Organization", "name": "Proyecto TCDS-Σ" }
-  },
+  "isAccessibleForFree": true,
   "license": [
     "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "https://geozunac3536-jpg.github.io/Proyecto_TCDS/LICENSE_COMMERCIAL.md"
@@ -28,21 +23,75 @@
     "JSON-LD"
   ],
   "datePublished": "2025-11-02",
+
+  "creator": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "givenName": "Genaro",
+    "familyName": "Carrasco Ozuna",
+    "email": "geozunac3536@gmail.com",
+    "identifier": "https://orcid.org/0009-0005-6358-9910",
+    "sameAs": [
+      "https://orcid.org/0009-0005-6358-9910",
+      "https://ko-fi.com/genarocarrasco",
+      "https://github.com/geozunac3536-jpg",
+      "https://geozunac3536-jpg.github.io/Proyecto_TCDS/"
+    ],
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Proyecto TCDS-Σ",
+      "sameAs": [
+        "https://geozunac3536-jpg.github.io/",
+        "https://geozunac3536-jpg.github.io/TCDS_Gradiente_Economico/",
+        "https://geozunac3536-jpg.github.io/TCDS-Business-Plan/"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "geozunac3536@gmail.com",
+        "availableLanguage": ["es", "en"]
+      }
+    }
+  },
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "CERN OpenAIRE / Zenodo",
+    "sameAs": ["https://zenodo.org/"]
+  },
+
+  "funding": {
+    "@type": "MonetaryGrant",
+    "funder": {
+      "@type": "Organization",
+      "name": "Apoyos de la comunidad (Ko-fi)",
+      "url": "https://ko-fi.com/genarocarrasco"
+    }
+  },
+
   "hasPart": [
     {
       "@type": "CreativeWork",
       "name": "La_TCDS.pdf",
-      "contentUrl": "https://geozunac3536-jpg.github.io/Proyecto_TCDS/docs/La_TCDS.pdf"
+      "contentUrl": "https://geozunac3536-jpg.github.io/Proyecto_TCDS/docs/La_TCDS.pdf",
+      "encodingFormat": "application/pdf"
     },
     {
       "@type": "CreativeWork",
       "name": "Auditoria.pdf",
-      "contentUrl": "https://geozunac3536-jpg.github.io/Proyecto_TCDS/docs/Auditoria.pdf"
+      "contentUrl": "https://geozunac3536-jpg.github.io/Proyecto_TCDS/docs/Auditoria.pdf",
+      "encodingFormat": "application/pdf"
     },
     {
       "@type": "CreativeWork",
       "name": "Energia.pdf",
-      "contentUrl": "https://geozunac3536-jpg.github.io/Proyecto_TCDS/docs/Energia.pdf"
+      "contentUrl": "https://geozunac3536-jpg.github.io/Proyecto_TCDS/docs/Energia.pdf",
+      "encodingFormat": "application/pdf"
     }
+  ],
+
+  "citation": [
+    "Carrasco Ozuna, G. (2025). TCDS — Núcleo Teórico (manuscrito). GitHub Pages.",
+    "Carrasco Ozuna, G. (2025). TCDS — Auditoría de coherencia y falsación (dossier). GitHub Pages."
   ]
 }
