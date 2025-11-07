@@ -1,6 +1,8 @@
 [![DOI](https://zenodo.org/badge/1087938102.svg)](https://doi.org/10.5281/zenodo.17504506)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17504243.svg)](https://doi.org/10.5281/zenodo.17504243)
-# 🌑 TCDS — Paquete de presentación de la Teoría Cromodinámica Sincrónica TCDS
+# 🌑 TCDS — Paquete de presentación de la Teoría 
+Cromodinámica Sincrónica TCDS
+Nodo central: https://geozunac3536-jpg.github.io/TCDS-Convergencia/
 <p style="text-align:center;margin:0.5rem 0 1.25rem;">
   <a href="https://ko-fi.com/genarocarrasco" target="_blank" rel="noopener"
      style="display:inline-block;padding:.6rem 1rem;border:1px solid #2a2a2a;border-radius:10px;color:#eaeaea;text-decoration:none;">
